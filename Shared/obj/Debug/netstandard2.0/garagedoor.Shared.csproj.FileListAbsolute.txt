@@ -1,0 +1,8 @@
+/home/pi/src/garagedoor/Shared/bin/Debug/netstandard2.0/garagedoor.Shared.deps.json
+/home/pi/src/garagedoor/Shared/bin/Debug/netstandard2.0/garagedoor.Shared.dll
+/home/pi/src/garagedoor/Shared/bin/Debug/netstandard2.0/garagedoor.Shared.pdb
+/home/pi/src/garagedoor/Shared/obj/Debug/netstandard2.0/garagedoor.Shared.csprojAssemblyReference.cache
+/home/pi/src/garagedoor/Shared/obj/Debug/netstandard2.0/garagedoor.Shared.AssemblyInfoInputs.cache
+/home/pi/src/garagedoor/Shared/obj/Debug/netstandard2.0/garagedoor.Shared.AssemblyInfo.cs
+/home/pi/src/garagedoor/Shared/obj/Debug/netstandard2.0/garagedoor.Shared.dll
+/home/pi/src/garagedoor/Shared/obj/Debug/netstandard2.0/garagedoor.Shared.pdb

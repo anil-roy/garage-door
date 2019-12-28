@@ -1,0 +1,27 @@
+@page "/led"
+@using garagedoor.Shared
+@using System.Net.Http.Headers
+@inject HttpClient Http
+@inject AuthenticationStateProviders.TokenAuthenticationStateProvider TokenProvider
+@attribute [Authorize]
+
+<h1>Led Toggle</h1>
+
+<p>Current On: @toggle</p>
+<button class="btn btn-primary" @onclick="ToggleLed">Toggle</button>
+
+@code {
+    bool toggle = false;
+
+    async Task ToggleLed()
+    {
+        var token = await TokenProvider.GetTokenAsync();
+        if (token != null)
+        {
+            Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            toggle = !toggle;
+            await Http.SendJsonAsync(HttpMethod.Post, "LED", toggle);
+        }
+    }
+}
+
