@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 using System.Device.Gpio;
 using garagedoor.Shared;
+using Microsoft.AspNetCore.Identity;
 
 namespace garagedoor.Server.Controllers
 {
@@ -36,14 +37,12 @@ namespace garagedoor.Server.Controllers
         [HttpPost]
         public void Post([FromBody] bool toggle)
         {            
-            if (toggle)
-            {
-                _controller.Write(ledPin, PinValue.High);
-            }
-            else
-            {
-                _controller.Write(ledPin, PinValue.Low);
-            }
+            logger.LogInformation("Turning ON PIN");
+            _controller.Write(ledPin, PinValue.High);
+            Task.Delay(1000).Wait();
+            logger.LogInformation("Turning OFF PIN");
+            _controller.Write(ledPin, PinValue.Low);
         }
+
     }
 }
