@@ -126,6 +126,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "MMALSharp": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "MMALSharp.FFmpeg": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.0.0, )"

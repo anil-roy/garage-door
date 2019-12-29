@@ -46,3 +46,13 @@
 /home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Tokens.dll
 /home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/System.IdentityModel.Tokens.Jwt.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/MMALSharp.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/MMALSharp.Common.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/MMALSharp.FFmpeg.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/MMALSharp.Processing.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/NLog.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/System.Drawing.Common.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll
+/home/pi/src/garagedoor/Server/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll
