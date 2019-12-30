@@ -149,6 +149,10 @@
             "System.Device.Gpio": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "(, )"
             }
           },
           "imports": [

@@ -487,3 +487,768 @@
 2019-12-29 18:51:53.8124||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
 2019-12-29 18:51:53.8124||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
 2019-12-29 18:51:53.8124||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 18:56:03.1876||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 18:56:04.1889||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 18:56:04.2003||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 18:56:04.2003||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 18:56:04.2193||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 18:56:04.2357||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 18:56:04.2357||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 18:56:04.2725||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 18:56:04.2725||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 18:56:04.2725||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 18:56:04.2725||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 18:56:04.2836||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 18:56:04.2836||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 18:56:04.2836||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 18:56:04.2902||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 18:56:04.3226||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 18:56:04.3226||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 18:56:04.3570||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 18:56:04.3570||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 18:56:04.3649||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 18:56:04.3723||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 18:56:04.3723||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 18:56:04.3883||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 18:56:04.3963||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 18:56:04.4036||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 18:56:04.4124||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 18:56:04.4124||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 18:56:04.4124||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 18:56:04.4124||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 18:56:04.4212||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 18:56:04.4481||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 18:56:04.4759||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.4868||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 18:56:04.4868||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.4972||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.4972||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 18:56:04.5008||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.5735||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 18:56:04.6061||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 18:56:04.6061||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.6112||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 18:56:04.6112||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:56:04.6423||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 18:56:04.7060||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 18:56:06.9350||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 18:56:06.9644||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 18:56:06.9884||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 18:56:06.9938||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 18:56:07.0015||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 18:56:07.0015||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 18:56:07.4146||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 18:56:07.4718||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.20mb. 
+2019-12-29 18:56:07.4718||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 18:56:07.4816||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 18:56:07.5018||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 18:56:07.5018||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 18:56:07.6385||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 18:56:07.6640||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 18:56:07.6640||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:56:07.6736||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:56:07.6736||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 18:56:07.7082||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 18:56:07.7132||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 18:56:07.7132||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 18:56:07.7132||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 18:56:07.7132||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:56:07.7247||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:56:07.7247||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 18:56:07.7247||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 18:56:07.7368||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 18:57:46.1631||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 18:57:47.1607||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 18:57:47.1720||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 18:57:47.1720||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 18:57:47.1908||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 18:57:47.2077||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 18:57:47.2077||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 18:57:47.2438||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 18:57:47.2438||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 18:57:47.2438||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 18:57:47.2504||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 18:57:47.2504||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 18:57:47.2504||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 18:57:47.2602||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 18:57:47.2602||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 18:57:47.2934||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 18:57:47.2934||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 18:57:47.3747||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 18:57:47.3747||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 18:57:47.3810||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 18:57:47.3810||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 18:57:47.3925||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 18:57:47.3925||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 18:57:47.4049||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 18:57:47.4121||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 18:57:47.4206||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 18:57:47.4206||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 18:57:47.4206||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 18:57:47.4206||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 18:57:47.4206||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 18:57:47.4547||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 18:57:47.4547||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.4677||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 18:57:47.4677||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.4789||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.4816||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 18:57:47.4816||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.5548||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 18:57:47.5867||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 18:57:47.5867||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.5922||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 18:57:47.5922||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 18:57:47.6228||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 18:57:47.6873||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 18:57:49.9202||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 18:57:49.9562||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 18:57:49.9778||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 18:57:49.9833||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 18:57:49.9910||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 18:57:49.9910||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 18:57:50.3978||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 18:57:50.4630||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.20mb. 
+2019-12-29 18:57:50.4630||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 18:57:50.4736||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 18:57:50.4945||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 18:57:50.5021||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 18:57:50.6208||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 18:57:50.6449||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 18:57:50.6449||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:57:50.6525||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:57:50.6525||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 18:57:50.6855||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 18:57:50.6920||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 18:57:50.6920||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 18:57:50.6920||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 18:57:50.6920||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:57:50.7033||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 18:57:50.7033||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 18:57:50.7033||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 18:57:50.7144||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:03:00.6641||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 19:03:01.7079||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 19:03:01.7195||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 19:03:01.7219||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 19:03:01.7383||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 19:03:01.7553||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 19:03:01.7553||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 19:03:01.7920||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 19:03:01.7920||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 19:03:01.7920||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 19:03:01.7920||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 19:03:01.8022||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 19:03:01.8022||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 19:03:01.8022||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 19:03:01.8022||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 19:03:01.8409||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 19:03:01.8409||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 19:03:01.8756||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 19:03:01.8756||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 19:03:01.8819||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 19:03:01.8913||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 19:03:01.8913||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 19:03:01.9111||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 19:03:01.9111||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 19:03:01.9246||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 19:03:01.9336||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 19:03:01.9336||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 19:03:01.9336||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 19:03:01.9336||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 19:03:01.9419||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 19:03:01.9721||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 19:03:01.9721||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:01.9857||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 19:03:01.9857||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:01.9973||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:01.9973||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 19:03:02.0014||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:02.0738||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 19:03:02.1071||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 19:03:02.1071||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:02.1124||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 19:03:02.1203||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:03:02.1448||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 19:03:02.2399||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 19:03:04.4640||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:03:04.4889||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 19:03:04.5094||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 19:03:04.5151||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 19:03:04.5226||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 19:03:04.5226||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:03:04.8361||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 19:03:04.9041||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 19:03:04.9041||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:03:04.9137||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 19:03:04.9338||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 19:03:04.9414||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:03:05.0023||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:03:05.0265||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 19:03:05.0265||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:03:05.0343||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:03:05.0343||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 19:03:05.0584||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 19:03:05.0628||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:03:05.0628||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:03:05.0628||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 19:03:05.0628||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:03:05.0715||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:03:05.0715||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 19:03:05.0715||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 19:03:05.0715||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:07:14.9243||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 19:07:14.9243||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 19:07:14.9302||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 19:07:14.9416||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 19:07:14.9510||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:14.9607||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 19:07:14.9709||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:14.9709||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:14.9709||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 19:07:14.9709||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:15.0485||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 19:07:15.0508||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 19:07:15.0508||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:15.0508||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 19:07:15.0508||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:07:15.0508||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 19:07:15.0745||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 19:07:17.0737||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:07:17.0841||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 19:07:17.0974||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 19:07:17.1038||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 19:07:17.1112||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 19:07:17.1112||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:07:17.4310||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 19:07:17.4734||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 19:07:17.4878||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:07:17.4974||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 19:07:17.5027||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 19:07:17.5027||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:07:17.6037||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:07:17.6037||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 19:07:17.6121||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:07:17.6121||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:07:17.6220||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 19:07:17.6220||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 19:07:17.6220||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:07:17.6325||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:07:17.6325||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 19:07:17.6325||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:07:17.6466||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:07:17.6503||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 19:07:17.6503||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 19:07:17.6503||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:09:47.9668||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 19:09:47.9668||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 19:09:47.9710||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 19:09:47.9803||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 19:09:47.9911||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0009||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0111||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 19:09:48.0111||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0847||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 19:09:48.0847||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 19:09:48.0847||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0903||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 19:09:48.0903||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:09:48.0903||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 19:09:48.1107||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 19:09:50.1133||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:09:50.1133||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 19:09:50.1239||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 19:09:50.1239||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 19:09:50.1239||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 19:09:50.1307||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:09:50.4584||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 19:09:50.4684||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.17mb. 
+2019-12-29 19:09:50.4720||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:09:50.4720||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 19:09:50.4720||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 19:09:50.4810||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:09:50.6331||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:09:50.6331||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 19:09:50.6331||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:09:50.6446||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:09:50.6446||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 19:09:50.6446||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 19:09:50.6513||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:09:50.6513||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:09:50.6513||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 19:09:50.6513||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:09:50.6635||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:09:50.6635||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 19:09:50.6635||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 19:09:50.6713||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:15:31.2228||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 19:15:32.2118||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 19:15:32.2229||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 19:15:32.2229||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 19:15:32.2416||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 19:15:32.2576||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 19:15:32.2576||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 19:15:32.2938||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 19:15:32.2938||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 19:15:32.2938||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 19:15:32.3001||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 19:15:32.3001||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 19:15:32.3001||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 19:15:32.3001||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 19:15:32.3001||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 19:15:32.3427||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 19:15:32.3427||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 19:15:32.3772||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 19:15:32.3772||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 19:15:32.3836||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 19:15:32.3836||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 19:15:32.3952||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 19:15:32.4021||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 19:15:32.4021||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 19:15:32.4155||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 19:15:32.4249||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 19:15:32.4249||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 19:15:32.4305||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 19:15:32.4305||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 19:15:32.4435||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 19:15:32.4830||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 19:15:32.4830||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.4968||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 19:15:32.4968||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.5076||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.5103||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 19:15:32.5103||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.5838||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 19:15:32.6162||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 19:15:32.6162||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.6213||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 19:15:32.6213||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:15:32.6526||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 19:15:32.7168||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 19:15:34.9369||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:15:34.9680||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 19:15:34.9946||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 19:15:34.9946||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 19:15:35.0076||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 19:15:35.0135||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:15:35.3433||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 19:15:35.3812||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 19:15:35.3812||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:15:35.3933||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 19:15:35.4129||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 19:15:35.4209||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:15:35.5103||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:15:35.5349||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 19:15:35.5349||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:15:35.5424||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:15:35.5424||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 19:15:35.5669||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 19:15:35.5726||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:15:35.5726||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:15:35.5726||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 19:15:35.5726||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:15:35.5819||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:15:35.5819||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 19:15:35.5819||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 19:15:35.5819||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:24:49.4145||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 19:24:50.4076||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 19:24:50.4190||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 19:24:50.4214||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 19:24:50.4378||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 19:24:50.4540||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 19:24:50.4540||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 19:24:50.4905||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 19:24:50.4905||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 19:24:50.4905||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 19:24:50.4905||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 19:24:50.4905||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 19:24:50.5009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 19:24:50.5009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 19:24:50.5009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 19:24:50.5378||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 19:24:50.5378||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 19:24:50.5721||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 19:24:50.5721||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 19:24:50.5721||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 19:24:50.5854||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 19:24:50.5925||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 19:24:50.6009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 19:24:50.6009||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 19:24:50.6162||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 19:24:50.6253||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 19:24:50.6253||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 19:24:50.6253||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 19:24:50.6307||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 19:24:50.6307||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 19:24:50.6605||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 19:24:50.6605||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.6738||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 19:24:50.6738||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.6849||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.6849||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 19:24:50.6849||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.7612||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 19:24:50.7936||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 19:24:50.7936||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.7936||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 19:24:50.8059||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 19:24:50.8299||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 19:24:50.8941||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 19:24:53.1092||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:24:53.1319||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 19:24:53.1524||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 19:24:53.1524||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 19:24:53.1658||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 19:24:53.1720||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:24:53.5218||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 19:24:53.5867||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 19:24:53.5907||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 19:24:53.5907||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 19:24:53.6161||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 19:24:53.6238||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 19:24:53.6856||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:24:53.7142||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 19:24:53.7142||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:24:53.7222||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:24:53.7222||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 19:24:53.7465||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 19:24:53.7506||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 19:24:53.7506||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 19:24:53.7506||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 19:24:53.7506||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:24:53.7614||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 19:24:53.7614||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 19:24:53.7614||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 19:24:53.7614||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 20:07:08.9536||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 21:20:45.4345||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 21:20:46.4126||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 21:20:46.4237||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 21:20:46.4237||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 21:20:46.4425||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 21:20:46.4584||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 21:20:46.4584||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 21:20:46.4944||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 21:20:46.4944||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 21:20:46.4944||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 21:20:46.5003||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 21:20:46.5003||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 21:20:46.5003||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 21:20:46.5003||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 21:20:46.5003||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 21:20:46.5426||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 21:20:46.5426||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 21:20:46.5769||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 21:20:46.5769||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 21:20:46.5832||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 21:20:46.5832||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 21:20:46.5960||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 21:20:46.6044||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 21:20:46.6115||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 21:20:46.6115||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 21:20:46.6272||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 21:20:46.6272||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 21:20:46.6320||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 21:20:46.6320||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 21:20:46.6320||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 21:20:46.6628||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 21:20:46.6628||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.6758||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 21:20:46.6758||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.6865||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.6865||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 21:20:46.6904||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.7629||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 21:20:46.7954||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 21:20:46.7954||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.8005||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 21:20:46.8005||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:20:46.8313||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 21:20:46.8958||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 21:20:49.1157||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:20:49.1410||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 21:20:49.1615||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 21:20:49.1615||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 21:20:49.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 21:20:49.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:20:49.4887||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 21:20:49.5140||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.17mb. 
+2019-12-29 21:20:49.5140||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:20:49.5233||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 21:20:49.5432||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 21:20:49.5508||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:20:49.6528||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:20:49.6806||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 21:20:49.6806||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:20:49.6806||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:20:49.6907||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 21:20:49.7124||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 21:20:49.7124||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:20:49.7124||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:20:49.7124||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 21:20:49.7124||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:20:49.7239||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:20:49.7239||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 21:20:49.7239||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 21:20:49.7313||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:24:07.8202||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 21:24:08.8210||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 21:24:08.8330||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 21:24:08.8330||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 21:24:08.8520||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 21:24:08.8901||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 21:24:08.8901||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 21:24:08.9261||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 21:24:08.9261||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 21:24:08.9309||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 21:24:08.9309||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 21:24:08.9309||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 21:24:08.9309||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 21:24:08.9309||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 21:24:08.9413||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 21:24:08.9730||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 21:24:08.9730||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 21:24:09.0109||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 21:24:09.0109||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 21:24:09.0109||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 21:24:09.0228||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 21:24:09.0228||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 21:24:09.0357||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 21:24:09.0415||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 21:24:09.0415||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 21:24:09.0570||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 21:24:09.0570||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 21:24:09.0613||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 21:24:09.0613||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 21:24:09.0613||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 21:24:09.0914||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 21:24:09.0914||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.1046||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 21:24:09.1046||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.1153||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.1153||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 21:24:09.1153||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.1919||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 21:24:09.2243||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 21:24:09.2243||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.2243||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 21:24:09.2372||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:24:09.2608||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 21:24:09.3248||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 21:24:11.5346||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:24:11.5596||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 21:24:11.5810||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 21:24:11.5810||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 21:24:11.5958||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 21:24:11.6023||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:24:11.9467||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 21:24:11.9746||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 21:24:11.9746||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:24:11.9835||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 21:24:12.0035||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 21:24:12.0110||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:24:12.1137||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:24:12.1376||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 21:24:12.1376||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:24:12.1454||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:24:12.1454||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 21:24:12.1694||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 21:24:12.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:24:12.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:24:12.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 21:24:12.1742||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:24:12.1832||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:24:12.1832||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 21:24:12.1832||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 21:24:12.1901||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:26:20.8120||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAMERA_NUM 
+2019-12-29 21:26:21.8062||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 21:26:21.8175||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling control port. 
+2019-12-29 21:26:21.8202||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 21:26:21.8368||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 21:26:21.8529||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 21:26:21.8529||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 21:26:21.8892||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 21:26:21.8909||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 21:26:21.8909||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 21:26:21.8909||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 21:26:21.8909||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 21:26:21.9008||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 21:26:21.9008||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 21:26:21.9008||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 21:26:21.9384||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 21:26:21.9384||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 21:26:21.9733||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 21:26:21.9733||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 21:26:21.9808||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 21:26:21.9808||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 21:26:21.9960||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 21:26:22.0048||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 21:26:22.0117||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 21:26:22.0117||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 21:26:22.0312||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 21:26:22.0312||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 21:26:22.0312||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 21:26:22.0312||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 21:26:22.0412||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 21:26:22.0944||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 21:26:22.0944||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.1075||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 21:26:22.1075||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.1178||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.1204||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 21:26:22.1204||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.1942||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 21:26:22.2266||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 21:26:22.2266||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.2322||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 21:26:22.2322||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:22.2636||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 21:26:22.3269||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 21:26:24.5527||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:26:24.5747||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 21:26:24.5953||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 21:26:24.6006||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 21:26:24.6006||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 21:26:24.6130||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:26:24.9388||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 21:26:24.9802||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.18mb. 
+2019-12-29 21:26:24.9802||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:26:24.9802||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 21:26:25.0090||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 21:26:25.0168||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:26:25.1055||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:26:25.1298||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 21:26:25.1324||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:25.1324||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:25.1324||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 21:26:25.1613||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 21:26:25.1613||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:26:25.1613||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:26:25.1613||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 21:26:25.1613||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:25.1763||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:25.1763||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 21:26:25.1763||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 21:26:25.1823||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:26:37.8151||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera config set 
+2019-12-29 21:26:37.8151||DEBUG|MMALSharp.Common.Utility.MMALLog|Configuring camera parameters. 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Getting parameter MMAL_PARAMETER_CAMERA_CUSTOM_SENSOR_CONFIG 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting saturation: 0 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SATURATION 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting sharpness: 0 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHARPNESS 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting contrast: 0 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CONTRAST 
+2019-12-29 21:26:37.8208||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting brightness: 50 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_BRIGHTNESS 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting ISO: 0 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ISO 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting video stabilisation: True 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_VIDEO_STABILISATION 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure compensation: 0 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXPOSURE_COMP 
+2019-12-29 21:26:37.8303||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure mode: MMAL_PARAM_EXPOSUREMODE_AUTO 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting exposure metering mode: MMAL_PARAM_EXPOSUREMETERINGMODE_AVERAGE 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB mode: MMAL_PARAM_AWBMODE_AUTO 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting AWB gains: 0, 0 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting Image FX: MMAL_PARAM_IMAGEFX_NONE 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting colour effects 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting rotation: 0 
+2019-12-29 21:26:37.8407||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_ROTATION 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting shutter speed: 0 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_SHUTTER_SPEED 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE_STATS_PASS 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit preview 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit video 
+2019-12-29 21:26:37.8509||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.8604||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.8604||DEBUG|MMALSharp.Common.Utility.MMALLog|Commit still 
+2019-12-29 21:26:37.8604||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.9355||DEBUG|MMALSharp.Common.Utility.MMALLog|Camera component configured. 
+2019-12-29 21:26:37.9355||DEBUG|MMALSharp.Common.Utility.MMALLog|Shallow copy port format 
+2019-12-29 21:26:37.9355||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.9417||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_JPEG_Q_FACTOR 
+2019-12-29 21:26:37.9417||DEBUG|MMALSharp.Common.Utility.MMALLog|Committing port format changes 
+2019-12-29 21:26:37.9417||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_EXIF_DISABLE 
+2019-12-29 21:26:37.9622||INFO|MMALSharp.Common.Utility.MMALLog|Preparing to take picture. Resolution: 640 x 480. Encoder: JPEG. Pixel Format: I420. 
+2019-12-29 21:26:39.9688||DEBUG|MMALSharp.Common.Utility.MMALLog|Starting output port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:26:39.9789||DEBUG|MMALSharp.Common.Utility.MMALLog|Enabling port. 
+2019-12-29 21:26:39.9958||DEBUG|MMALSharp.Common.Utility.MMALLog|Initialising buffer pool. 
+2019-12-29 21:26:40.0027||DEBUG|MMALSharp.Common.Utility.MMALLog|Creating buffer pool with 1 buffers of size 81920 
+2019-12-29 21:26:40.0027||DEBUG|MMALSharp.Common.Utility.MMALLog|Sending buffer to output port: Length 0 
+2019-12-29 21:26:40.0167||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:26:40.4065||DEBUG|MMALSharp.Common.Utility.MMALLog|vc.ril.image_encode vc.ril.image_encode:out:0(JPEG) End of stream. Signaling completion... 
+2019-12-29 21:26:40.4257||INFO|MMALSharp.Common.Utility.MMALLog|Successfully processed 0.17mb. 
+2019-12-29 21:26:40.4317||DEBUG|MMALSharp.Common.Utility.MMALLog|Disabling port vc.ril.image_encode:out:0(JPEG) 
+2019-12-29 21:26:40.4317||WARN|MMALSharp.Common.Utility.MMALLog|Port not enabled. 
+2019-12-29 21:26:40.4423||DEBUG|MMALSharp.Common.Utility.MMALLog|Destroying output port pool. 
+2019-12-29 21:26:40.4423||DEBUG|MMALSharp.Common.Utility.MMALLog|Setting parameter MMAL_PARAMETER_CAPTURE 
+2019-12-29 21:26:40.6206||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:26:40.6206||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:0(OPQV) Downstream component: vc.null_sink on port vc.null_sink:in:0(OPQV) 
+2019-12-29 21:26:40.6206||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:40.6345||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:40.6345||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 1 
+2019-12-29 21:26:40.6418||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.null_sink. 
+2019-12-29 21:26:40.6418||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 
+2019-12-29 21:26:40.6418||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing downstream component 
+2019-12-29 21:26:40.6529||DEBUG|MMALSharp.Common.Utility.MMALLog|Removing Component connection - Upstream component: vc.ril.camera on port vc.ril.camera:out:2(OPQV) Downstream component: vc.ril.image_encode on port vc.ril.image_encode:in:0(OPQV) 
+2019-12-29 21:26:40.6529||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:40.6647||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing connection. 
+2019-12-29 21:26:40.6647||DEBUG|MMALSharp.Common.Utility.MMALLog|Remaining components in pipeline: 0 
+2019-12-29 21:26:40.6720||DEBUG|MMALSharp.Common.Utility.MMALLog|Disposing component vc.ril.image_encode. 
+2019-12-29 21:26:40.6917||DEBUG|MMALSharp.Common.Utility.MMALLog|Completed disposal... 

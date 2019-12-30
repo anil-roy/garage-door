@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace garagedoor.Server.Controllers
     {
         private readonly ILogger<IMAGEController> logger;
         private MMALCamera cam;
-        
+             
         public IMAGEController(
             ILogger<IMAGEController> logger)
         {
@@ -31,20 +32,21 @@ namespace garagedoor.Server.Controllers
         }
 
         [HttpPost]
-        public async Task<ContentResult> Post([FromBody] bool refresh)
-        //public ContentResult Post([FromBody] bool refresh)
+        public async Task<ImageDetails> Post([FromBody] bool refresh)
         {            
+
             String fileName="NotAnImage.jpg";
             logger.LogInformation("Will refresh Image");
 
-            using (var imgCaptureHandler = new ImageStreamCaptureHandler("/home/pi/images/", "jpg"))        
+            using (var imgCaptureHandler = new ImageStreamCaptureHandler("/home/pi/src/garagedoor/Client/wwwroot/images/", "jpg"))        
             {            
                 await cam.TakePicture(imgCaptureHandler, MMALEncoding.JPEG, MMALEncoding.I420);
                 fileName = imgCaptureHandler.GetFilename(); 
                 logger.LogInformation(fileName);
             }
-            return Content(fileName);
-
+            ImageDetails imageDetails = new ImageDetails();
+            imageDetails.Name = "/images/" + Uri.EscapeDataString (fileName) + ".jpg";
+            return imageDetails;
         }
 
     }
