@@ -5,13 +5,18 @@
 @inject AuthenticationStateProviders.TokenAuthenticationStateProvider TokenProvider
 @attribute [Authorize]
 
-<h1>Led Toggle</h1>
-
-<p>Current On: @toggle</p>
-<button class="btn btn-primary" @onclick="ToggleLed">Toggle</button>
+<div class="container">
+<h1>Door Actions</h1>
+<button class="btn btn-primary" @onclick="ToggleLed">Toggle Door</button>
+<button class="btn btn-primary" @onclick="RefreshImage">Check state</button>
+</div>
+<div class="container">
+<img class="img-rounded" src=@doorImage alt="GarageDoorStatus" height="320" width="240">
+</div>
 
 @code {
     bool toggle = false;
+    String doorImage= "images/29-Dec-19%2019-03-04.jpg";
 
     async Task ToggleLed()
     {
@@ -21,6 +26,21 @@
             Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             toggle = !toggle;
             await Http.SendJsonAsync(HttpMethod.Post, "LED", toggle);
+        }
+    }
+
+    async Task RefreshImage()
+    {
+        bool refresh = true;
+        var token = await TokenProvider.GetTokenAsync();
+        if (token != null)
+        {
+            Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            //await Http.SendJsonAsync(HttpMethod.Post, "IMAGE", refresh);
+            var result = await Http.PostJsonAsync<ImageDetails>("IMAGE", refresh);
+            // var response = await Http.SendJsonAsync <HttpResponseMessage>(HttpMethod.Post, "IMAGE", refresh);
+            //System.Console.WriteLine(response);
+            doorImage=result.Name;
         }
     }
 }
