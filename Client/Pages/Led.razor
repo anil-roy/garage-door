@@ -5,23 +5,23 @@
 @inject AuthenticationStateProviders.TokenAuthenticationStateProvider TokenProvider
 @attribute [Authorize]
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-    <div class="col-xs-12" style="background-color:white;">
+    <div class="col-lg-12" style="background-color:white;">
       <h1 class="text-center">Door Actions</h1>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-6 text-center" style="background-color:white;">
+    <div class="col-lg-6 text-center" style="background-color:white;">
       <button class="btn btn-primary" @onclick="ToggleLed">Toggle Door</button>
     </div>
-    <div class="col-xs-6 text-center" style="background-color:white;">
+    <div class="col-lg-6 text-center" style="background-color:white;">
       <button class="btn btn-primary" @onclick="RefreshImage">Check state</button>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 text-center" style="margin:10px 10px">
-      <img class="img-rounded" src=@doorImage alt="GarageDoorStatus" height="320" width="240" >
+    <div class="col-lg-12 text-center" >
+      <img class="img-rounded" src=@doorImage alt="GarageDoorStatus" height="320" width="240" style="margin:10px 10px">
     </div>
   </div>
 </div>

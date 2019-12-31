@@ -25,6 +25,7 @@ namespace garagedoor.Server
         {
             services.AddMvc().AddNewtonsoftJson();
             services.AddSingleton<GpioController>();
+            services.AddHostedService<PiMonitorWorker>(); 
             services.AddResponseCompression(opts =>
             {
                 opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
