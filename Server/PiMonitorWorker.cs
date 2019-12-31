@@ -22,7 +22,7 @@ namespace garagedoor
             {               
                 logger.LogInformation("Executing...");
                 // TODO: make this an app setting
-                string[] files = Directory.GetFiles("/home/pi/src/garagedoor/Client/wwwroot/images/");
+                string[] files = Directory.GetFiles("/home/pi/doorimages/");
 
                 foreach (string file in files)
                 {

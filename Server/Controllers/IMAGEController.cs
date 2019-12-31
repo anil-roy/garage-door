@@ -38,14 +38,14 @@ namespace garagedoor.Server.Controllers
             String fileName="NotAnImage.jpg";
             logger.LogInformation("Will refresh Image");
 
-            using (var imgCaptureHandler = new ImageStreamCaptureHandler("/home/pi/src/garagedoor/Client/wwwroot/images/", "jpg"))        
+            using (var imgCaptureHandler = new ImageStreamCaptureHandler("/home/pi/doorimages/", "jpg"))        
             {            
                 await cam.TakePicture(imgCaptureHandler, MMALEncoding.JPEG, MMALEncoding.I420);
                 fileName = imgCaptureHandler.GetFilename(); 
                 logger.LogInformation(fileName);
             }
             ImageDetails imageDetails = new ImageDetails();
-            imageDetails.Name = "/images/" + Uri.EscapeDataString (fileName) + ".jpg";
+            imageDetails.Name = "/doorimages/" + Uri.EscapeDataString (fileName) + ".jpg";
             return imageDetails;
         }
 

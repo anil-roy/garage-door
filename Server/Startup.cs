@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.FileProviders;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
 using System.Device.Gpio;
@@ -59,6 +60,13 @@ namespace garagedoor.Server
             }
 
             app.UseStaticFiles();
+
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider("/home/pi/doorimages"),
+                RequestPath = "/doorimages"
+            });
+
             app.UseClientSideBlazorFiles<Client.Startup>();
 
             app.UseRouting();
