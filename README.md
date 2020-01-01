@@ -8,9 +8,10 @@ The stack is an ASP.Net Core backend with a Blazor frontend built as a Web Assem
 Using C# for client-side web development has some key advantages espcially for .Net developers. It's robust and mature language.  Enabling C# on the client would allow teams to use a common technology stack on server and client.  And Blazor let's you share models between frontend and backend.
 
 The Tech Stack for this project is:
-#ASP.Net Core v3.x
-#Blazor Web assembly
-#Raspbian OS
+*ASP.Net Core v3.x
+*Blazor Web assembly
+*Raspbian OS
 
 
+More details to follow.
 
