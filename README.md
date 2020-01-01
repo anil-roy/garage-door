@@ -1,4 +1,5 @@
-# garage-door
+# A Raspberry Pi based Garage door Web App
+## With no JavaScript
 
 A Blazor based Garage Door controller hosted on a Raspberry Pi
 
